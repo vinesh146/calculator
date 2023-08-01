@@ -1,0 +1,48 @@
+.id{
+	font-size: 50px;
+}
+.demo{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.calc{
+	background-color: grey;
+	padding: 30px;
+	border border-radius: 30px;
+	display: grid;
+ grid-template-columns: repeat(4, 100px);
+
+}
+input{
+	grid-column: span 4;
+	height: 50px;
+	width: 330px;
+	background-color: white;
+	box-shadow: inset -5px -5px 12px whitesmoke,
+	          inset 5px 5px 12px white;
+	          border: none;
+	          border-radius:none;
+	          color: grey;
+	          font-size: 50px;
+	          text-align: end;
+	         padding: 20px;
+}
+button{
+ 	height: 48px;
+ 	width: 48px;
+ 	background-color: white;
+ 	box-shadow: -5px -5px 12px lightgrey,
+ 				5px 5px 12px lightgrey ;
+ 	border: none;
+ 	border-radius: 50%;
+ 	margin: 8px;
+ 	font-size: 16px;
+
+}
+.equal{
+	 width:150px; 
+	 border-radius: 40px;
+	 background-color: whitesmoke;
+}
